@@ -2,7 +2,8 @@ const express = require('express');
 const mongoose = require('mongoose');
 
 const port = process.env.PORT        || 3000;
-const db   = process.env.MONGODB_URI || 'mongodb://localhost/hellodb';
+// const db   = process.env.MONGODB_URI || 'mongodb://localhost/hellodb';
+const db = 'mongodb+srv://hellodb:hellodb-velezcapo@cluster0.mas2j.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
 
 const app = express();
 
