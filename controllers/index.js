@@ -17,6 +17,6 @@ exports.search = (req, res) => {
       user.age = Math.trunc((new Date() - user.birthday) / 31536000000);
       result = [user];
     }
-    res.render('index', { users: users });
+    res.render('index', { users: user });
   })
 }
